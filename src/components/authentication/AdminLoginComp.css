@@ -1,0 +1,160 @@
+/* Estilos generales para el botón de login */
+.btn-outline-secondary {
+    border: 2px solid #6c757d;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #6c757d;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    margin: 0.5rem;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para el modal administrativo */
+  .admin-modal-content {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el encabezado del modal administrativo */
+  .admin-modal-header {
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .admin-modal-title {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  /* Estilos para el cuerpo del modal administrativo */
+  .admin-modal-body {
+    padding: 1rem 0;
+  }
+  
+  .admin-form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .admin-form-label {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .admin-form-control {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  /* Estilos para la alerta de error en el modal administrativo */
+  .admin-alert-danger {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Estilos para el pie del modal administrativo */
+  .admin-modal-footer {
+    border-top: none;
+    justify-content: space-between;
+  }
+  
+  .btn-secondary,
+  .btn-primary {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+  @media (min-width: 576px) {
+    .admin-modal-content {
+      padding: 2rem;
+    }
+  
+    .admin-modal-title {
+      font-size: 1.75rem;
+    }
+  
+    .admin-form-control {
+      padding: 1rem;
+      font-size: 1.1rem;
+    }
+  
+    .btn-secondary,
+    .btn-primary {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .admin-modal-content {
+      padding: 2.5rem;
+    }
+  
+    .admin-modal-title {
+      font-size: 2rem;
+    }
+  
+    .admin-form-control {
+      padding: 1.25rem;
+      font-size: 1.2rem;
+    }
+  
+    .btn-secondary,
+    .btn-primary {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .admin-modal-content {
+      padding: 3rem;
+    }
+  
+    .admin-modal-title {
+      font-size: 2.25rem;
+    }
+  
+    .admin-form-control {
+      padding: 1.5rem;
+      font-size: 1.3rem;
+    }
+  
+    .btn-secondary,
+    .btn-primary {
+      padding: 1.25rem 2.5rem;
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-modal-content {
+      padding: 3.5rem;
+    }
+  
+    .admin-modal-title {
+      font-size: 2.5rem;
+    }
+  
+    .admin-form-control {
+      padding: 1.75rem;
+      font-size: 1.4rem;
+    }
+  
+    .btn-secondary,
+    .btn-primary {
+      padding: 1.5rem 3rem;
+      font-size: 1.4rem;
+    }
+  }
+  

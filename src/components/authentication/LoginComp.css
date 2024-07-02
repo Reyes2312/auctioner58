@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.modal-content {
+  background-color: #040f1f;
+  color: #000000; 
+  border: 2px solid #007bff; 
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); 
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff; 
+  text-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 15px #007bff;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.form-control {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #ffffff; 
+  color: #000000; 
+  border: 2px solid #007bff; 
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); 
+}
+
+.btn-outline-secondary {
+  cursor: pointer;
+  border-color: #007bff; 
+  color: #007bff; 
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #007bff; 
+  color: #ffffff; 
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6); 
+}
+
+.register-link {
+  color: #007bff; 
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.register-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 15px #007bff;
+}
